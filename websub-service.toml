@@ -42,7 +42,7 @@ MESSAGE_DELIVERY_COUNT = 3
 MESSAGE_DELIVERY_TIMEOUT = 30.0
 
 # The base URL of IDP
-MOSIP_AUTH_BASE_URL = "${mosip.kernel.authmanager.url}/v1/authmanager"
+MOSIP_AUTH_BASE_URL = "http://authmanager.kernel/v1/authmanager"
 
 
 # The token validation URL of IDP
