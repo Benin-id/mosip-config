@@ -6,6 +6,9 @@
 		"selectedHandles" : {
 			"value" : "selectedHandles"
 		},
+		"npi": {
+		  "value": "npi"
+		},
 		"name": {
 			"value": "fullName"
 		},
