@@ -3,6 +3,9 @@
       "name": [
             "firstName,lastName"
         ],
+        "uin":[
+            "npi"
+        ],
         "dob": [
             "dateOfBirth"
         ],
