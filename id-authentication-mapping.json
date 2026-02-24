@@ -3,7 +3,7 @@
       "name": [
             "firstName,lastName"
         ],
-        "uin":[
+        "UIN":[
             "npi"
         ],
         "dob": [
