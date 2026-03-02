@@ -7,8 +7,14 @@
 			"value" : "selectedHandles"
 		},
 		"name": {
-			"value": "fullName"
+			"value": "firstName,lastName"
 		},
+		"firstName":{
+			"value":"firstName"
+		 },
+		 "lastName":{
+			"value":"lastName"
+		 },
 		"gender": {
 			"value": "gender"
 		},
@@ -84,6 +90,9 @@
 		"addressLine3": {
 			"value": "addressLine3"
 		},
+		"address": {
+			"value": "address"
+		},
 		"location1": {
 			"value": "city"
 		},
@@ -100,7 +109,7 @@
 			"value": "zone"
 		},
 		"fullAddress": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
+			"value": "address,addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
 		},
 		"bestTwoFingers": {
 			"value": "bestTwoFingers"
@@ -115,7 +124,7 @@
 			"value": "phone"
 		},
 		"address": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
+			"value": "address,addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
 		},
 
 		"individual_id": {
