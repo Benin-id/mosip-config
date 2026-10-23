@@ -24,6 +24,9 @@
 		"dateOfBirth": {
 			"value": "dateOfBirth"
 		},
+       "age": {
+        "value": "age"
+      },
 		"departmentOfBirth": {
 			"value": "departmentOfBirth"
 		},
