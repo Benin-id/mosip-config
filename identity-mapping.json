@@ -3,20 +3,119 @@
 		"IDSchemaVersion": {
 			"value": "IDSchemaVersion"
 		},
-		"selectedHandles" : {
-			"value" : "selectedHandles"
+		"formNumber": {
+			"value": "formNumber"
 		},
-		"name": {
-			"value": "fullName"
+		"countryOfBirth": {
+			"value": "countryOfBirth"
 		},
 		"gender": {
 			"value": "gender"
 		},
-		"dob": {
+		"lastName": {
+			"value": "lastName"
+		},
+		"firstName": {
+			"value": "firstName"
+		},
+		"nationality": {
+			"value": "nationality"
+		},
+		"dateOfBirth": {
 			"value": "dateOfBirth"
 		},
-		"age": {
-			"value": "age"
+		"departmentOfBirth": {
+			"value": "departmentOfBirth"
+		},
+		"communeOfBirth": {
+			"value": "communeOfBirth"
+		},
+		"arrondissementOfBirth": {
+			"value": "arrondissementOfBirth"
+		},
+		"village": {
+			"value": "village"
+		},
+		"placeOfBirth": {
+			"value": "placeOfBirth"
+		},
+		"occupation": {
+			"value": "occupation"
+		},
+		"civilServantPayrollNumber": {
+			"value": "civilServantPayrollNumber"
+		},
+		"countryOfResidence": {
+			"value": "countryOfResidence"
+		},
+		"departmentOfResidence": {
+			"value": "departmentOfResidence"
+		},
+		"communeOfResidence": {
+			"value": "communeOfResidence"
+		},
+		"arrondissementOfResidence": {
+			"value": "arrondissementOfResidence"
+		},
+		"wardOfResidence": {
+			"value": "wardOfResidence"
+		},
+		"addressLine1": {
+			"value": "addressLine1"
+		},
+		"countryDialingCode": {
+			"value": "countryDialingCode"
+		},
+		"phone": {
+			"value": "phone"
+		},
+		"motherLastName": {
+			"value": "motherLastName"
+		},
+		"motherFirstName": {
+			"value": "motherFirstName"
+		},
+		"motherDateOfBirth": {
+			"value": "motherDateOfBirth"
+		},
+		"motherDepartmentOfBirth": {
+			"value": "motherDepartmentOfBirth"
+		},
+		"motherCommuneOfBirth": {
+			"value": "motherCommuneOfBirth"
+		},
+		"motherArrondissementOfBirth": {
+			"value": "motherArrondissementOfBirth"
+		},
+		"motherVillage": {
+			"value": "motherVillage"
+		},
+		"fatherLastName": {
+			"value": "fatherLastName"
+		},
+		"fatherFirstName": {
+			"value": "fatherFirstName"
+		},
+		"fatherDateOfBirth": {
+			"value": "fatherDateOfBirth"
+		},
+		"fatherDepartmentOfBirth": {
+			"value": "fatherDepartmentOfBirth"
+		},
+		"fatherCommuneOfBirth": {
+			"value": "fatherCommuneOfBirth"
+		},
+		"fatherArrondissementOfBirth": {
+			"value": "fatherArrondissementOfBirth"
+		},
+		"fatherVillage": {
+			"value": "fatherVillage"
+		},
+		"preferredLang": {
+			"value": "preferredLang"
+		},
+		"individualBiometrics": {
+			"value": "individualBiometrics"
 		},
 		"introducerRID": {
 			"value": "introducerRID"
@@ -24,35 +123,8 @@
 		"introducerUIN": {
 			"value": "introducerUIN"
 		},
-		"introducerVID": {
-			"value": "introducerVID"
-		},
 		"introducerName": {
 			"value": "introducerName"
-		},
-		"phone": {
-			"value": "phone"
-		},
-		"phoneNumber": {
-			"value": "phone"
-		},
-		"packetCreatedOn": {
-			"value": "packetCreatedOn"
-		},
-		"email": {
-			"value": "email"
-		},
-		"emailId": {
-			"value": "email"
-		},
-		"uin": {
-			"value": "UIN"
-		},
-		"vid": {
-			"value": "VID"
-		},
-		"individualBiometrics": {
-			"value": "individualBiometrics"
 		},
 		"introducerBiometrics": {
 			"value": "introducerBiometrics"
@@ -60,95 +132,11 @@
 		"individualAuthBiometrics": {
 			"value": "individualAuthBiometrics"
 		},
-		"officerBiometricFileName": {
-			"value": "officerBiometricFileName"
-		},
-		"supervisorBiometricFileName": {
-			"value": "supervisorBiometricFileName"
-		},
-		"residenceStatus": {
-			"value": "residenceStatus"
-		},
-		"preferredLanguage": {
-			"value": "preferredLang"
-		},
-		"locationHierarchyForProfiling": {
-			"value": "zone,postalCode"
-		},
-		"addressLine1": {
-			"value": "addressLine1"
-		},
-		"addressLine2": {
-			"value": "addressLine2"
-		},
-		"addressLine3": {
-			"value": "addressLine3"
-		},
-		"location1": {
-			"value": "city"
-		},
-		"location2": {
-			"value": "region"
-		},
-		"location3": {
-			"value": "province"
-		},
-		"postalCode": {
-			"value": "postalCode"
-		},
-		"location4": {
-			"value": "zone"
-		},
-		"fullAddress": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
-		},
-		"bestTwoFingers": {
-			"value": "bestTwoFingers"
-		},
-		"birthdate": {
-			"value": "dateOfBirth"
+		"uin": {
+			"value": "UIN"
 		},
 		"picture": {
 			"value": "face"
-		},
-		"phone_number": {
-			"value": "phone"
-		},
-		"address": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
-		},
-		"individual_id": {
-			"value": "individual_id"
-		},
-		"attributes": {
-		   "value": "fln,ad1,ad2,ad3,cit,reg,pro,poc,cph,em,ph,gen,dob"
-		},
-		"street_address": {
-			"value": "addressLine1,addressLine2,addressLine3"
-		},
-		"locality": {
-			"value": "city"
-		},
-		"region": {
-			"value": "region"
-		},
-		"postal_code": {
-			"value": "postalCode"
-		},
-		"country": {
-			"value": "province"
-		},
-		"password": {
-			"value": "password"
-		},
-		"deceasedDeclarationDate" : {
-			"value": "deceasedDeclarationDate"
-		},
-		"declaredAsDeceased" : {
-			"value" : "declaredAsDeceased"
-		},
-		"typeOfDeath" : {
-			"value" : "typeOfDeath"
 		}
 	},
 	"metaInfo": {
@@ -164,18 +152,16 @@
 		"poi": {
 			"value": "proofOfIdentity"
 		},
-		"por": {
-			"value": "proofOfRelationship"
-		},
-		"pob": {
-			"value": "proofOfDateOfBirth"
+		"aliveState": {
+			"value": "aliveState"
 		},
 		"poe": {
 			"value": "proofOfException"
 		}
 	},
 	"attributeUpdateCountLimit": {
-		"fullName": 5,
+		"firstName": 5,
+		"lastName": 5,
 		"gender": 2,
 		"dateOfBirth": 3
 	}

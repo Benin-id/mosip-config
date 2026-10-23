@@ -155,12 +155,12 @@
                 <to uri="workflow-cmd://anonymous-profile" />
             </when>
             <otherwise>
-                <to uri="eventbus://transformer-bus-in" />
+                <to uri="eventbus://transformer-stage-bus-in" />
             </otherwise>
         </choice>
     </route>
     <route id="transformer-stage--> new route">
-        <from uri="eventbus://transformer-new-bus-out" />
+        <from uri="eventbus://transformer-stage-new-bus-out" />
         <log message="transformer-stage--> route ${bodyAs(String)}" />
         <choice>
             <when>
