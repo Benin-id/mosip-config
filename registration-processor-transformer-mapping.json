@@ -1,0 +1,341 @@
+{
+	"contexte_enrolement": {
+		"identifiant_dossier": {
+			"type": "registration-id"
+		},
+		"agent": {
+			"type": "constant",
+			"value": "AGENT-RECETTE-01",
+			"required": true
+		},
+		"type_demande": {
+			"type": "constant",
+			"value": "MIMS"
+		},
+		"numero_formulaire": {
+			"source": "formNumber",
+			"type": "direct",
+			"required": true
+		},
+		"departement": {
+			"source": "registrationDepartment",
+			"type": "constant",
+			"value": "10"
+		},
+		"commune": {
+			"source": "registrationCommune",
+			"type": "constant",
+			"value": "10.9"
+		},
+		"arrondissement": {
+			"source": "registrationArrondissement",
+			"type": "constant",
+			"value": "10.9.01"
+		},
+		"village_quartier": {
+			"source": "registrationVillage",
+			"type": "constant",
+			"value": "10.9.01.02"
+		}
+	},
+	"enfant": {
+		"nom": {
+			"source": "lastName",
+			"type": "language",
+			"language": "fra",
+			"required": true
+		},
+		"prenoms": {
+			"source": "firstName",
+			"type": "language",
+			"language": "fra",
+			"required": true
+		},
+		"date_naissance": {
+			"source": "dateOfBirth",
+			"type": "direct",
+			"required": true
+		},
+		"sexe": {
+			"source": "gender",
+			"type": "direct",
+			"required": true
+		},
+		"nationalite": {
+			"source": "nationality",
+			"type": "direct",
+			"required": true
+		},
+		"naissance": {
+			"pays": {
+				"source": "countryOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"departement": {
+				"source": "departmentOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"commune": {
+				"source": "communeOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"arrondissement": {
+				"source": "arrondissementOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"village_quartier": {
+				"source": "village",
+				"type": "direct",
+				"required": true
+			},
+			"lieu": {
+				"source": "placeOfBirth",
+				"type": "language",
+				"language": "fra",
+				"required": true
+			}
+		},
+		"profession": {
+			"source": "occupation",
+			"type": "language",
+			"language": "fra",
+			"required": true
+		},
+		"identifiant_agent_etat": {
+			"source": "civilServantPayrollNumber",
+			"type": "direct",
+			"required": true
+		},
+		"residence": {
+			"pays": {
+				"source": "countryOfResidence",
+				"type": "direct",
+				"required": true
+			},
+			"departement": {
+				"source": "departmentOfResidence",
+				"type": "direct",
+				"required": true
+			},
+			"commune": {
+				"source": "communeOfResidence",
+				"type": "direct",
+				"required": true
+			},
+			"arrondissement": {
+				"source": "arrondissementOfResidence",
+				"type": "direct",
+				"required": true
+			},
+			"village_quartier": {
+				"source": "wardOfResidence",
+				"type": "direct",
+				"required": true
+			},
+			"adresse_ligne": {
+				"source": "addressLine1",
+				"type": "direct",
+				"required": true
+			}
+		},
+		"indicatif_telephone": {
+			"source": "countryDialingCode",
+			"type": "direct",
+			"required": true
+		},
+		"numero_telephone": {
+			"source": "phone",
+			"type": "direct",
+			"required": true
+		}
+	},
+	"mere": {
+		"nom": {
+			"source": "motherLastName",
+			"type": "language",
+			"language": "fra",
+			"required": true
+		},
+		"prenoms": {
+			"source": "motherFirstName",
+			"type": "language",
+			"language": "fra",
+			"required": true
+		},
+		"date_naissance": {
+			"source": "motherDateOfBirth",
+			"type": "direct",
+			"required": true
+		},
+		"naissance": {
+			"departement": {
+				"source": "motherDepartmentOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"commune": {
+				"source": "motherCommuneOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"arrondissement": {
+				"source": "motherArrondissementOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"village_quartier": {
+				"source": "motherVillage",
+				"type": "direct",
+				"required": true
+			}
+		}
+	},
+	"pere": {
+		"nom": {
+			"source": "fatherLastName",
+			"type": "language",
+			"language": "fra",
+			"required": true
+		},
+		"prenoms": {
+			"source": "fatherFirstName",
+			"type": "language",
+			"language": "fra",
+			"required": true
+		},
+		"date_naissance": {
+			"source": "fatherDateOfBirth",
+			"type": "direct",
+			"required": true
+		},
+		"naissance": {
+			"departement": {
+				"source": "fatherDepartmentOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"commune": {
+				"source": "fatherCommuneOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"arrondissement": {
+				"source": "fatherArrondissementOfBirth",
+				"type": "direct",
+				"required": true
+			},
+			"village_quartier": {
+				"source": "fatherVillage",
+				"type": "direct",
+				"required": true
+			}
+		}
+	},
+	"biometrie": {
+		"photo": {
+			"source": "individualBiometrics",
+			"type": "biometric",
+			"biometricType": "FACE"
+		},
+		"images_contexte": {
+			"source": "documents",
+			"type": "documents"
+		},
+		"empreintes": [
+			{
+				"doigt": "pouce_droit",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Right",
+					"Thumb"
+				]
+			},
+			{
+				"doigt": "index_droit",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Right",
+					"IndexFinger"
+				]
+			},
+			{
+				"doigt": "majeur_droit",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Right",
+					"MiddleFinger"
+				]
+			},
+			{
+				"doigt": "annulaire_droit",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Right",
+					"RingFinger"
+				]
+			},
+			{
+				"doigt": "auriculaire_droit",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Right",
+					"LittleFinger"
+				]
+			},
+			{
+				"doigt": "pouce_gauche",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Left",
+					"Thumb"
+				]
+			},
+			{
+				"doigt": "index_gauche",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Left",
+					"IndexFinger"
+				]
+			},
+			{
+				"doigt": "majeur_gauche",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Left",
+					"MiddleFinger"
+				]
+			},
+			{
+				"doigt": "annulaire_gauche",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Left",
+					"RingFinger"
+				]
+			},
+			{
+				"doigt": "auriculaire_gauche",
+				"type": "biometric",
+				"biometricType": "FINGER",
+				"subtypes": [
+					"Left",
+					"LittleFinger"
+				]
+			}
+		]
+	}
+}
